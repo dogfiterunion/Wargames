@@ -1,0 +1,65 @@
+Gemini said
+This guide will help you launch any of the three tactical simulators (Pacific War 1, Tankgaem.py, or Navalgaem) on your specific device. All games require Python 3 to run locally.
+
+💻 PC (Windows & Linux)
+Install Python: Download and install the latest version from python.org. Ensure you check the box that says "Add Python to PATH" during installation.
+
+Download the Files: Place PacificWar1.py, Tankgaem.py, and navalgaem in a dedicated folder.
+
+Open Terminal/CMD: * On Windows, press Win + R, type cmd, and hit Enter.
+
+On Linux, open your preferred Terminal.
+
+Navigate & Run: Use the cd command to enter your game folder and type:
+
+python Tankgaem.py
+
+
+python navalgaem 
+
+🍎 Mac (macOS)
+Check Python: Most Macs come with Python, but you should install the latest version via python.org or Homebrew (brew install python).
+
+Open Terminal: Press Cmd + Space, type "Terminal," and hit Enter.
+
+Run with Python3: macOS often requires the python3 command specifically:
+
+python3 Tankgaem.py
+
+
+python3 navalgaem 
+
+🍓 Raspberry Pi (Raspbian/OS)
+Pre-installed: Python 3 is installed by default on Raspberry Pi OS.
+
+Access Terminal: Click the terminal icon in the top taskbar.
+
+Execute: Navigate to your folder and run:
+
+python3 Tankgaem.py
+
+
+python3 navalgaem 
+
+Note: These games are lightweight and run perfectly on all Pi models.
+
+💻 Chromebook
+There are two ways to play on a Chromebook:
+
+The Easy Way (No Setup)
+Go to online-python.com.
+
+Drag and Drop the .py file (e.g., Tankgaem.py) directly onto the editor window.
+
+Click the "Run" button.
+
+The Pro Way (Linux Environment)
+Go to Settings > Advanced > Developers and turn on Linux development environment (Beta).
+
+Open the Terminal app from your launcher.
+
+Update your packages: sudo apt-get update.
+
+Move your game files into the "Linux files" folder in your Files app.
+
+Run: python3 Tankgaem.py or python3 navalgaem.
